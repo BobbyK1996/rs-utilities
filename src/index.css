@@ -3,6 +3,20 @@
 
 @tailwind utilities;
 
+@theme {
+  --color-primary-50: #f4f9ec;
+  --color-primary-100: #e6f2d5;
+  --color-primary-200: #cee7af;
+  --color-primary-300: #aed680;
+  --color-primary-400: #90c358;
+  --color-primary-500: #71a83a;
+  --color-primary-600: #629630;
+  --color-primary-700: #446625;
+  --color-primary-800: #385222;
+  --color-primary-900: #314720;
+  --color-primary-950: #18260d;
+}
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
