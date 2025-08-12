@@ -1,15 +1,15 @@
 class Ability {
-  constructor(
+  constructor({
     name,
     instantDamage = 0,
-    castTimeTicks = 0,
+    castTimeTicks = 3,
     cooldownTicks = 0,
     adrenalineChange = 0,
     dotDamage = 0,
     dotDurationTicks = 0,
     bypassesSunshine = false,
     type = 'basic',
-  ) {
+  }) {
     this.name = name;
     this.instantDamage = instantDamage;
     this.castTimeTicks = castTimeTicks;
